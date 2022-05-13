@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import {VueRouter, createWebHistory} from 'vue-router'
+import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import RandomView from '../views/RandomView.vue'
 import WatchListView from '../views/WatchListView.vue'
@@ -27,7 +27,6 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  history: createWebHistory(),
   routes
 })
 
