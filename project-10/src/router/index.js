@@ -21,6 +21,15 @@ const routes = [
     path: '/watch-list',
     name: 'watch-list',
     component: WatchListView
+  },
+  {
+    path: '/404',
+    name: 'NotFound',
+    component: NotFound
+  },
+  {
+    path: '*',
+    redirect: to => { return {'name': 'NotFound'} }
   }
 ]
 
