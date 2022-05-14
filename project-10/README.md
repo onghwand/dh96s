@@ -1,4 +1,4 @@
-# project-10
+# project-10.
 
 ## Project setup
 ```
